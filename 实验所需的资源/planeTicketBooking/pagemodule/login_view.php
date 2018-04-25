@@ -1,0 +1,42 @@
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+   <div id="l_alert" class="row in fade" style="margin-top: 25px;font-family: 宋体;display: none;">
+        <div class="alert alert-danger alert-dismissible col-sm-offset-3 col-sm-6" role="alert" style="text-align: center;">
+
+        </div>
+    </div>
+   <div class="modal-dialog" role="document" style="width: 650px;">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="loginLabel">登录</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal" style="font-family: 宋体">
+              <!-- 用户名输入框 -->
+              <div class="form-group form-group-lg" style="margin-bottom: 50px;">
+                <label for="用户名" class="col-sm-2 control-label" 
+                  style="letter-spacing: 5px;">
+                  用户名
+                </label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="l_user" placeholder="您的账户名和用户名" maxlength="20">
+                </div>
+              </div>
+              <!-- 密码输入框 -->
+              <div class="form-group form-group-lg" style="margin-bottom: 0px;">
+                <label for="密码" class="col-sm-2 control-label">
+                  密码
+                </label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="l_password" placeholder="您的密码" maxlength="20">
+                </div>
+              </div>
+            </form>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary" id="l_login">确认登录</button>
+      </div>
+    </div>
+   </div>
+</div>
